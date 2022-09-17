@@ -1,0 +1,115 @@
+/*********************************************
+ * OPL 22.1.0.0 Data
+ * Author: vincenthaunberger
+ * Creation Date: Jun 10, 2022 at 3:54:58 PM
+ *********************************************/
+
+
+ // create connection
+ SheetConnection data("C:\\Users\\haunbe01\\Desktop\\CaseStudy_final_MitAbend\\input_data\\data_case_study.xlsx");
+ 
+ // DATA FROM EXCEL
+ 
+ // Instance: micro
+ /*
+ nbStudents from SheetRead(data, "micro!C1");
+ nbCourses from SheetRead(data, "micro!C2");
+ Courses from SheetRead(data, "micro!C11:F12");
+ nbPlannedCourses from SheetRead(data, "micro!I11:I15");
+ preferences from SheetRead(data, "micro!J11:K15");
+ */
+ 
+ // Instance: small
+ /*
+ nbStudents from SheetRead(data, "small!C1");
+ nbCourses from SheetRead(data, "small!C2");
+ Courses from SheetRead(data, "small!C11:F14");
+ nbPlannedCourses from SheetRead(data, "small!I11:I20");
+ preferences from SheetRead(data, "small!J11:M20");
+ */
+ 
+ // Instance: medium
+ 
+ nbStudents from SheetRead(data, "medium!C1");
+ nbCourses from SheetRead(data, "medium!C2");
+ Courses from SheetRead(data, "medium!C11:F30");
+ nbPlannedCourses from SheetRead(data, "medium!I11:I210");
+ preferences from SheetRead(data, "medium!J11:AC210");
+ 
+ 
+ // Instance: large
+ /*
+ nbStudents from SheetRead(data, "large!C1");
+ nbCourses from SheetRead(data, "large!C2");
+ Courses from SheetRead(data, "large!C11:F70");
+ nbPlannedCourses from SheetRead(data, "large!I11:I610");
+ preferences from SheetRead(data, "large!J11:BQ610");
+ */
+ 
+ 
+ 
+ 
+ //  DATA TO EXCEL
+ 
+ // Instance: micro
+ /*
+ obj to SheetWrite(data,"results_micro!B2");
+ x to SheetWrite(data,"results_micro!B6:C10");
+ y to SheetWrite(data,"results_micro!B3:C3");
+ z to SheetWrite(data,"results_micro!B4:C4");
+ preferences to SheetWrite(data,"results_micro!B12:C16");
+ */
+ 
+ // Instance: small
+ /*
+ obj to SheetWrite(data,"results_small3!B2");
+ x to SheetWrite(data,"results_small3!B6:E15");
+ y to SheetWrite(data,"results_small3!B3:E3");
+ z to SheetWrite(data,"results_small3!B4:E4");
+ preferences to SheetWrite(data,"results_small3!B18:E27");
+ */
+ 
+ // Instance: medium
+ /*
+ obj to SheetWrite(data,"results_medium1!B2");
+ x to SheetWrite(data,"results_medium1!B6:U205");
+ y to SheetWrite(data,"results_medium1!B3:U3");
+ z to SheetWrite(data,"results_medium1!B4:U4");
+ */
+ 
+ // Instance: large
+ /*
+ obj to SheetWrite(data,"results_large3!B2");
+ x to SheetWrite(data,"results_large3!B6:BI605");
+ y to SheetWrite(data,"results_large3!B3:BI3");
+ z to SheetWrite(data,"results_large3!B4:BI4");
+ */
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /* IGNORE: test data
+ //########################################################
+ 
+ 
+ nbStudents = 5;
+ nbCourses = 2;
+ 
+ // courseCapacity | penaltySlot | nbAddSlot | minAttendees
+ Courses = [
+ 	<4, 0.0, 0, 2>,
+ 	<3, 2.0, 1, 2>,
+ ];
+ 
+ nbPlannedCourses = [2,2,1,1,1];
+ preferences = [[1,2],[1,2],[1,2],[1,2],[1,2]];
+ 
+*/
+

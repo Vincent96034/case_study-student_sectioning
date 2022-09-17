@@ -1,0 +1,30 @@
+/*********************************************
+ * OPL 22.1.0.0 Data
+ * Author: vincenthaunberger
+ * Creation Date: Jun 10, 2022 at 3:54:58 PM
+ *********************************************/
+
+ 
+ nbStudents = 5;
+ nbCourses = 2;
+ 
+ 
+ // courseCapacity | penaltySlot | nbAddSlot
+ Courses = [
+ 	<7, 0.0, 0>,
+ 	<3, 2.0, 1>,
+ ];
+ 
+ 
+ // nbPlannedCourses | preferences
+ Students = [
+ 	<2, [2,1]>,
+ 	<2, [2,1]>,
+ 	<2, [1,2]>,
+ 	<2, [2,1]>,
+ 	<2, [2,1]>,
+ ];
+ 
+ 
+ 
+ 

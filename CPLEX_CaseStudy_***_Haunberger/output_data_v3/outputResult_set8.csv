@@ -1,0 +1,3 @@
+set;instance;MinCourseCap;AddSlotPenalty;AddSlots;MinAttendees;obj;pref_sum;penalty_nbCourses;penalty_addSlots;sum_z;sum_y;status;pref_sum_opt;pref_sum_rand;slack_nbPlannedCourses;slack_courseCapacity;slack_minAttendees;
+set8;1;20;70;20;8;18370;16564;1176;630;20;9;102;16752;42000;56;352;2017;
+set8;2;20;70;20;8;16855;14776;1449;630;20;9;102;15075;42000;69;230;1847;

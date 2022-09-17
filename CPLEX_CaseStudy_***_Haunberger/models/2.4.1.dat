@@ -1,0 +1,38 @@
+/*********************************************
+ * OPL 22.1.0.0 Data
+ * Author: vincenthaunberger
+ * Creation Date: Jun 10, 2022 at 3:54:58 PM
+ *********************************************/
+
+ /*
+ SheetConnection TestData("caseStudy_test-dataV1.xls");
+ 
+ nbStudents from SheetRead(TestData, "Sheet1!B2");
+ nbCourses from SheetRead(TestData, "Sheet1!B3");
+ 
+ nbPlannedCourses from SheetRead(TestData, "Sheet1!E3:N3");
+ courseCapacity from SheetRead(TestData, "Sheet1!E6:G6");
+ 
+ preferences from SheetRead(TestData, "Sheet1!E10:N12");
+ */
+ 
+ 
+ nbStudents = 5;
+ nbCourses = 2;
+ 
+ Courses = [
+ 	<7>,
+ 	<3>,
+ ];
+ 
+ Students = [
+ 	<2, [2,1]>,
+ 	<2, [2,1]>,
+ 	<2, [2,1]>,
+ 	<2, [2,1]>,
+ 	<2, [2,1]>,
+ ];
+ 
+ 
+ 
+ 

@@ -1,0 +1,27 @@
+/*********************************************
+ * OPL 20.1.0.0 Data
+ * Author: haunbe01
+ * Creation Date: 26.07.2022 at 10:54:31
+ *********************************************/
+ // set1
+ 
+ 	
+ // create connection
+ SheetConnection data("C:\\Users\\haunbe01\\Desktop\\CaseStudy_final_MitAbend\\input_data\\input_params.xlsx");
+ 
+ // DATA FROM EXCEL
+ // Instance: set1
+ nbStudents from SheetRead(data, "set1!C1");
+ nbCourses from SheetRead(data, "set1!C2");
+ Courses from SheetRead(data, "set1!C11:F30");
+ nbPlannedCourses from SheetRead(data, "set1!I11:I210");
+ preferences from SheetRead(data, "set1!J11:AC210");
+ 
+ 
+ MinCourseCap from SheetRead(data, "set1!C3");
+ AddSlotPenalty from SheetRead(data, "set1!D12");
+ AddSlots from SheetRead(data, "set1!E12");
+ MinAttendees from SheetRead(data, "set1!F12");
+ 
+ 
+ 
